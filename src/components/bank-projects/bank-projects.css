@@ -1,0 +1,21 @@
+.bank-projects {
+    display: flex;
+}
+
+.bank-projects>div {
+    flex-grow: 1;
+}
+
+.bank-projects .map-container {
+    height: 70vh;
+    width: 50vw;
+}
+
+.bank-projects .correlation-charts {
+    display: flex;
+    flex-direction: column;
+}
+
+.bank-projects .correlation-charts>div {
+    flex-grow: 1;
+}

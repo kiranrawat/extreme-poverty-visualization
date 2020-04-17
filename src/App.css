@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    color: #b80d57;
+}
+
+.world-charts {
+    display: flex;
+    margin-bottom: 64px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .app-container {
+        width: 750px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .app-container {
+        width: 970px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .app-container {
+        width: 1170px;
+        margin: auto;
+    }
+}
