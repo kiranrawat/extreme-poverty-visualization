@@ -133,11 +133,11 @@ export default function RegionMap() {
 
         if (chartData.length > 0) {
             const xScale = d3.scaleLinear()
-                .domain(xExtent ? xExtent : d3.extent(chartData.map(d => +d['corr'])))
+                .domain(xExtent ? xExtent : [0, d3.extent(chartData.map(d => +d['corr']))[1]])
                 .range([chartMargin.left, chartRect.width - chartMargin.right]);
 
             const yScale = d3.scaleLinear()
-                .domain(yExtent ? yExtent : d3.extent(chartData.map(d => +d['pov'])))
+                .domain(yExtent ? yExtent : [0, d3.extent(chartData.map(d => +d['pov']))[1]])
                 .range([chartRect.height - chartMargin.bottom, chartMargin.top]);
 
             const yAxis = d3.axisLeft().scale(yScale);
