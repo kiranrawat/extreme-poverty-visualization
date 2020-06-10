@@ -23,7 +23,7 @@ Visualization dashboard is available here <https://povertyviz.herokuapp.com>.
 
 ## Project Report
 
-A detailed report on the project [link](project-report/Understanding Extreme Poverty.pdf)
+A detailed report on the project [link](https://github.com/kiranrawat/extreme-poverty-visualization/blob/master/project-report/Understanding%20Extreme%20Poverty.pdf)
 
 ## Video Link
 
