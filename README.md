@@ -21,6 +21,10 @@ React <https://reactjs.org>
 
 Visualization dashboard is available here <https://povertyviz.herokuapp.com>.
 
+## Project Report
+
+A detailed report on the project [link](project-report/Understanding Extreme Poverty.pdf)
+
 ## Video Link
 
 Link for the short video clip explaining the project is here <https://www.youtube.com/watch?v=g8DhfJEjuLM>.
